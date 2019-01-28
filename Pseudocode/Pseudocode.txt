@@ -1,0 +1,45 @@
+1. Create a basic application
+Your 6 year old client needs an application that will receive an integer from the user banging on the keyboard, add 5 to it, double it, subtract 7 from it, and display the result to the screen.
+
+Prompt user for input a number
+Get Number and store in x
+Calculate result = (x +5 ) * 2  - 7
+Display result
+
+2. Add three numbers and print the total
+
+His little sister now wants a program to read three numbers, add them together and print their total.
+Prompt user for input three numbers
+Store first input into a
+Store second input into b
+Store third input into c
+Calculate sum = a + b + c
+Display sum
+
+3. Find the average score
+A program is needed to prompt the user operator for ten exam scores, calculate the average score and display the result to the screen. The average score is calculated as the sum of the scores divided by the number of scores.
+
+Set numberOfScores to Zero and sum to zero
+DOWHILE numberOfScores < 10
+	Prompt user for input
+	Get number and add in the result
+Add 1 to numberOfScores
+ENDDO
+Calculate average = sum / numberOfScores
+Display average
+
+4. How much water runs off the roof
+How much water runs off a roof in a rain storm?
+To calculate the runoff from any given rainfall: Take the dimensions of the footprint of the roof and convert them to inches. (So, a 50' x 20' roof is 600" x 240"). Multiply the roof dimensions by the number of inches of rainfall. In this example, 600" x 240" x 1" = 144,000 cubic inches of water. Divide that result by 231 to get the number of gallons (because 1 gallon = 231 cubic inches). (144,000/231 = 623.38).
+Write the pseudocode for the above problem. If you use the numbers provided in the example then the correct pseudocode will calculate the same result.
+
+Prompt user for input length
+Multiply first input by 12 and store into length
+Prompt user for input width
+Multiply second input by 12 and store into width
+Prompt user for inchesOfRainfall
+store them into inchesOfRainfall
+Calculate result = (length * width * inchesOfRainfall )/231
+Display result
+
+
